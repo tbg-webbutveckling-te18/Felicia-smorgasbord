@@ -1,3 +1,61 @@
+::selection {
+    background-color: #4c4cbe;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+        /* track thumb hover */
+}
+
+::-webkit-scrollbar-track {
+    background: #535c68;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #22a6b3;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7ed6df:
+}
+
 body {
-    background-color: aqua;
+    background-color: #c7ecee;
+    margin: 0px;
+}
+
+section#wrapper {
+    display: block; /* block is standard on most of the elements */
+    width: 300px; /* the width of the container */
+    min-height: 300px; /* the height of the container */
+    
+    background-color: #dff9fb;
+    border: 1px solid #30336b; /* thickness style color */
+    margin: 10px;
+}
+
+section#wrapper p {
+    color: #30336b;
+    border: 1px solid #30336b;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 5px; /* top right bottom left */
+    text-align: center;
+    
+}
+
+section.standardSection {
+    width: 200px;
+    height: 200px;
+    
+    background-color: #95afc0;
+    border: 1px solid #535c68;
+    margin: 10px;
+    /* margin 10px 0px top/bottom left/right*/
+}
+
+section.standardSection img {
+    display: inline; /* a few elements have inline as standard */
 }
