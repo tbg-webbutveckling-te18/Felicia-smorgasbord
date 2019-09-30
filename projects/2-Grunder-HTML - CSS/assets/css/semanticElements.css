@@ -18,12 +18,17 @@
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #7ed6df:
+    background: #65dee8;
 }
 
 body {
     background-color: #c7ecee;
     margin: 0px;
+}
+
+section#standardSectionUnique {
+    margin-right: 0px;
+    
 }
 
 section#wrapper {
@@ -52,10 +57,28 @@ section.standardSection {
     
     background-color: #95afc0;
     border: 1px solid #535c68;
-    margin: 10px;
+    margin: 10px auto;
     /* margin 10px 0px top/bottom left/right*/
+}
+
+section.standardChild {
+    width: 150px; /* 100% off of its parent */
+    min-height: 50px;
+    
+    background-color: #6c91b4;
+    border: 1px solid #535c68;
+    
+    margin: 10px auto;
+}
+
+section.standardChild p {
+    margin: auto;
 }
 
 section.standardSection img {
     display: inline; /* a few elements have inline as standard */
+}
+
+.highlighted:hover {
+    background-color: #f5f6fa;
 }
