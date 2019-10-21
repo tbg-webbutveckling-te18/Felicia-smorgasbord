@@ -8,10 +8,10 @@
 - Lycksele
 
 # mål / syfte / vision med webbplatsen
-informativ, underhållande och möjligen lite undervisande.
+informativ, underhållande och möjligen lite undervisande. all möjlig sorts konst tutorials
 
 # målgrupp
-Pg-13? Beginners in art.
+Pg-13? Beginners in art. 
 
 # Research och inhämtning av material
 
@@ -26,7 +26,7 @@ Hemsidan ska vara simpel och tydlig. Användare ska kunna lära sig ny tekniker 
 * Skapa en sitemap för webbplatsen
     * se sitemap.jpg under [documentation]
 * Skissa wireframes
-    * se wireframe.jpg under [Documentation]
+    * se wireframe1.jpg och wireframe2.jpg under [Documentation]
 * Beskriv iden med kopositionen på de olika sidorna
     * logotyper
     * färger
@@ -60,4 +60,4 @@ sidan ska funka som typ en bloggsida där användare kan komunicera med varandra
 * sök
 * utforkare
 * kontaktinfo 
-* 
+* användar profil blogg sida sak
