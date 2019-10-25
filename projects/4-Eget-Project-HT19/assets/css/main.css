@@ -1,0 +1,37 @@
+#search input {
+    border-radius: 10px;
+    background-color: #cbcbcb;
+}
+
+#post ul {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+#post ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#post ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#find ul {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#find ul li a{
+    text-decoration: none;
+    color: black;
+}

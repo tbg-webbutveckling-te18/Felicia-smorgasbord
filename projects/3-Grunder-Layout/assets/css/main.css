@@ -17,7 +17,7 @@ section#wrapper {
     min-height: 575px;
     margin: auto;
 }
-header {
+header { 
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
