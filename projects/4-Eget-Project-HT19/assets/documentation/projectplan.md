@@ -5,7 +5,7 @@
 - Felicia Stenvall
 - ditt företag
 - Cretiveart st. 7
-- Lycksele
+- Lycksele 
 
 # mål / syfte / vision med webbplatsen
 informativ, underhållande och möjligen lite undervisande. all möjlig sorts konst tutorials
@@ -30,11 +30,11 @@ Hemsidan ska vara simpel och tydlig. Användare ska kunna lära sig ny tekniker 
 * Beskriv iden med kopositionen på de olika sidorna
     * logotyper
     * färger
-        * #079992 #38ada9 #78e08f #b8e994
+        *  #082F0C #0E5114 #94C499 #D4E7D6 #14741D
         * body bgcolor
-            * #38ada9
+            * 
         * header
-            * #079992
+            * 
     * font
         * 
     
