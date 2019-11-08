@@ -4,46 +4,87 @@ html {
 
 body {
     background-color: #4E0403;
+    margin: 0px;
 }
 
-body header, main, nav, footer, aside {
-    background-color: 
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #290c0c;
+}
+
+#search {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 #search input {
     border-radius: 10px;
-    background-color: #bab2b2;
+    background-color: #9a8989;
+    height: 23px;
+    margin-right: 10px;
+    border-color: #ad8888;
 }
 
-#post ul {
-    border: 1px solid black;
+#search ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+    width: 100%;    
 }
 
-#post ul li a {
+#search ul li a{
     text-decoration: none;
-    color: black;
-    
+    color: #b49d9d;
 }
 
-#post ul li a:hover {
+#search ul li a:hover {
     font-weight: bold;
     cursor: pointer;
 }
 
 #find ul {
-    border: 1px solid black;
-    padding: 0px;
-    margin: 0px;
+    padding: 15px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-around;
     list-style: none;
+    border-top: 1px solid #290c0c;
+    margin-top: 8px;
 }
 
 #find ul li a{
     text-decoration: none;
-    color: black;
+    color: #b49d9d;
+}
+
+#find ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+aside {
+    width: 30%;
+    
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #d6d5d5;
 }
