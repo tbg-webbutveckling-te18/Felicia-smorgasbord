@@ -69,13 +69,16 @@ header {
 
 main {
     display: flex;
+    
     justify-content: space-between;
     min-height: 500px;
 }
 
-main article {
-    margin: 0px;
+main section {
     flex: 1;
+}
+
+main section article {
     padding: 10px;
     margin-right: 60px;
     margin-left: 90px;
@@ -83,7 +86,16 @@ main article {
     margin-bottom: 20px;
     background-color: #d1d1d1;
     border-radius: 5px;
+    
 }
+
+main section article section {
+    margin-left: 30px;
+}
+
+/*main section article #article1 {
+    
+}*/
 
 main article a {
     text-decoration: none;
@@ -93,7 +105,8 @@ main article a {
 
 main aside {
     border-left: 1px solid #290c0c;
-    flex: 0.35;
+    flex: 0.4;
+    
 }
 
 footer {
