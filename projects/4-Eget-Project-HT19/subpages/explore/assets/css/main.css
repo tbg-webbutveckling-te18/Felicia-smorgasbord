@@ -1,0 +1,103 @@
+ html {
+    min-height: 100%;
+}
+
+body {
+    background-color: #4E0403;
+    margin: 0px;
+}
+
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #290c0c;
+}
+
+#search {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#search input {
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    height: 23px;
+    margin-right: 10px;
+    border-color: #faf7f7;
+}
+
+#search ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+    width: 100%;    
+}
+
+#search ul li a{
+    text-decoration: none;
+    color: #b49d9d;
+}
+
+#search ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#find ul {
+    padding: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-top: 1px solid #290c0c;
+    margin-top: 8px;
+}
+
+#find ul li a{
+    text-decoration: none;
+    color: #b49d9d;
+}
+
+#find ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    
+    justify-content: space-between;
+    min-height: 500px;
+}
+
+main section {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #290c0c;
+    padding-top: 10px;
+}
+
+footer ul {
+    margin-top: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #b49d9d;
+}
+
+footer ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
