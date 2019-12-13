@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #4E0403;
+    background: linear-gradient(to bottom, #237A57, #093028); 
     margin: 0px;
 }
 
@@ -11,20 +11,26 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid #290c0c;
-    background-color: #4E0403;
-}
-
-img {
-    display: block;
-    width: 5%;
-    padding-right: 4px;
-    margin-top: -5px;
+/*    background-color: #4E0403;*/
 }
 
 #search {
     display: flex;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+#search img {
+/*    display: block;*/
+    width: 100%;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+
+#search a {
+    width: 35px;
+    padding-right: 10px;
+    margin-top: -2px;
 }
 
 #search input {
@@ -100,10 +106,6 @@ main section article {
 main section article section {
     margin-left: 30px;
 }
-
-/*main section article #article1 {
-    
-}*/
 
 main article a {
     text-decoration: none;
