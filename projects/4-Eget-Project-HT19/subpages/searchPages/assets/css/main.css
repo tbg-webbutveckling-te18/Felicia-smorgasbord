@@ -111,6 +111,20 @@ main article a {
     font-size: 13.5px;
 }
 
+main #examples article {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 190px;
+}
+
+main #exapmles {
+    
+    display: flex;
+    
+}
+
 footer {
     display: flex;
     justify-content: space-around;
