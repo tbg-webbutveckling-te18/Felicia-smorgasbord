@@ -10,7 +10,7 @@ body {
 header {
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid #290c0c;
+    border-bottom: 1px solid #290c0c;
 }
 
 #search img {
@@ -81,13 +81,15 @@ header {
 
 main {
     display: flex;
-    
-    justify-content: space-between;
+    width: 100%;
     min-height: 500px;
 }
 
-main section {
-    flex: 1;
+main #test {
+    flex: 1; 
+    flex-flow: row wrap;
+    display: flex;
+    -webkit-flex-flow: wrap row;
 }
 
 main section article {
@@ -98,11 +100,13 @@ main section article {
     margin-bottom: 20px;
     background-color: #d1d1d1;
     border-radius: 5px;
-    
+    overflow: break-word;
+    hyphens: auto;
 }
 
 main section article section {
     margin-left: 30px;
+    
 }
 
 main article a {
@@ -111,18 +115,25 @@ main article a {
     font-size: 13.5px;
 }
 
-main #examples article {
-    display: flex;
-    justify-content: space-around;
+main section article {
     margin-left: 10px;
     margin-right: 10px;
     width: 190px;
 }
 
-main #exapmles {
-    
-    display: flex;
-    
+main aside {
+    flex: .25;
+    border-left: 1px solid #290c0c;
+}
+
+aside article {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #d1d1d1;
+    border-radius: 5px;
 }
 
 footer {
@@ -147,4 +158,3 @@ footer ul li a:hover {
     font-weight: bold;
     cursor: pointer;
 }
-
