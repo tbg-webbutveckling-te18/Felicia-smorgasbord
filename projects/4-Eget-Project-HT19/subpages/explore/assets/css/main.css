@@ -82,24 +82,26 @@ header {
 
 main {
     display: flex;
-    
     justify-content: space-between;
     min-height: 500px;
 }
 
 main section {
-    flex: 1;
+    flex-flow: row wrap;
+    display: flex;
+    -webkit-flex-flow: wrap row;
 }
 
 main section article {
     padding: 10px;
-    margin-right: 60px;
-    margin-left: 90px;
-    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
     background-color: #d1d1d1;
     border-radius: 5px;
-    
+    min-height: 30px;
+    width: 170px;
 }
 
 main section article section {
