@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body {
+    background-color: #e34560;
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer {
+    background-color: #45e3c8;
+    
+    width: 80%;
+    height: 100vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 3px 0 10px black, -3px 0 10px black;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.gridItem:nth-child(1) {
+    background-color: #D32C43;
+}
+
+.gridItem:nth-child(2) {
+    background-color: #b1182d;
+}
+
+.gridItem:nth-child(3) {
+    background-color: #8b1828;
+}
+
+.gridItem:nth-child(4) {
+    background-color: #6a131f;
+}
+
+.gridItem:nth-child(5) {
+    background-color: #50131b;
+}
+
+.gridItem:nth-child(6) {
+    background-color: #50131b;
+}
+
+.gridItem:nth-child(7) {
+    background-color: #6a131f;
+}
+
+.gridItem:nth-child(8) {
+    background-color: #811322;
+}
+
+.gridItem:nth-child(9) {
+    background-color: #b1182d;
+}
+
+.gridItem:nth-child(10) {
+    background-color: #D32C43;
+}
