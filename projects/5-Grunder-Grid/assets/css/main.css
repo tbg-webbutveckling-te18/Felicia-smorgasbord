@@ -19,17 +19,18 @@ body {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 350px 1fr;
 }
 
-.gridItem:nth-child(1) {
+.gridItem:nth-child(even) {
     background-color: #D32C43;
 }
 
-.gridItem:nth-child(2) {
+.gridItem:nth-child(odd) {
     background-color: #b1182d;
 }
 
-.gridItem:nth-child(3) {
+/*.gridItem:nth-child(3) {
     background-color: #8b1828;
 }
 
@@ -59,4 +60,4 @@ body {
 
 .gridItem:nth-child(10) {
     background-color: #D32C43;
-}
+}*/
