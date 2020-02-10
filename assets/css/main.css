@@ -1,0 +1,46 @@
+@charset 'utf-8';
+
+body {
+    background-color: #b741be;
+}
+
+.grid-container {
+    width: 80vw;
+    min-height: 90vh;
+    
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    
+    border: 1px solid black;
+    margin: auto;
+    
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: #41beb7;
+    box-shadow: 2px 0px 10px black, -2px 0px 10px black;
+}
+
+.grid-container a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    
+}
+
+.grid-container a:nth-child(even) {
+    background-color: #67cbc5;
+}
+
+.grid-container a:nth-child(odd) {
+    background-color: #67cbac;
+}
+
+.grid-item:nth-child(even)
+
+.grid-item:nth-child(even)
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Odibee Sans', cursive;*/
