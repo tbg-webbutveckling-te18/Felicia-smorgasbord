@@ -1,0 +1,65 @@
+@charset 'utf-8';
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: dimgray;
+}
+    
+.grid-container {
+    width: 75%;
+    margin: auto;
+    min-height: 95vh;
+    
+    display: grid;
+    grid-template-areas: 
+        ". top ."
+        "left . right"
+        ". bottom .";
+    
+    /*background-color: wheat;*/
+    /*border: 2px solid black;*/
+}
+
+/*.grid-item:nth-child(even) {
+    background-color: blanchedalmond;
+}
+
+.grid-item:nth-child(odd) {
+    background-color: darkslategrey;
+}*/
+
+/*.grid-item {
+    border: 2px solid black;
+}*/
+
+.grid-item:nth-child(1) {
+    grid-area: top;
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: left;
+    border-right: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: right;
+    border-left: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.grid-item:nth-child(4) {
+    grid-area: bottom;
+    border-right: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
