@@ -1,0 +1,77 @@
+@charset 'utf-8';
+
+html {
+    height: 100%;
+}
+     
+body {
+    background-color: dimgray;
+}
+     
+.container {
+    width: 75%;
+    margin: auto;
+    min-height: 95vh;
+    
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+/*
+    border: 2px solid black;
+*/
+}
+
+.item:nth-child(1) {
+    background-image: url(../../images/hector-martinez-HmnMQD51h1o-unsplashdf.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(2) {
+    background-image: url(../../images/e.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(3) {
+    background-image: url(../../images/john-lockwood-E_dM70NS2WU-unsplashd.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(4) {
+    background-image: url(../../images/anuraag-rajasekhar-m2qWRVnLyqM-unsplash4.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(5) {
+    background-image: url(../../images/eberhard-grossgasteiger-47g-IDWhlCc-unsplashd.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(6) {
+    background-image: url(../../images/zach-reiner-6HsMKCHho_I-unsplashd.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(7) {
+    background-image: url(../../images/chris-8iCdRKKoG7g-unsplash2.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(8) {
+    background-image: url(../../images/ishan-seefromthesky-rj8fMHNPXbg-unsplashd.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(9) {
+    background-image: url(../../images/jonathan-bean-lvMXgXUuAGs-unsplashd.jpg);
+    background-size: cover;
+}
+
+.item:nth-child(odd) {
+    background-color: grey;
+    
+/*
+    border: 2px solid black;
+*/
+    
+}
