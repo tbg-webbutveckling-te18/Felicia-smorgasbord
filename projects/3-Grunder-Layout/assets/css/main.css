@@ -11,12 +11,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-section#wrapper {
+section#wrapper { 
     border: 1px solid #0c530c;
     width: 80%;
     min-height: 575px;
     margin: auto;
-}
+} 
 header { 
     display: flex;
     justify-content: center; /* main axis */

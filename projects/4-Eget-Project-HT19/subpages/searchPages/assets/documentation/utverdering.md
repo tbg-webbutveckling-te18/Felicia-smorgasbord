@@ -6,4 +6,4 @@
  * Varför har ni gjort som ni gjort? - min ursprungliga planering var bara något som jag använde för att veta på ett ungefär hur det kunde se ut men om jag inte gillade något så planerade jag på att ändra det medans jag gick.
 # Beskriv hur ni tycker att ni kan förbättra arbetet.
  * Hur kan jag förbättra? - Jag önskar att jag inte hade försökt göra så mycket för mitt första project.
- * Tips till andra. - fokusera på att bara göra åtminstånde huvudsidan och en eller två subpages anars kan det vara overwhelming och man kanske inte hinner göra färdigt allt.
+ * Tips till andra. - fokusera på att bara göra åtminstånde huvudsidan och en eller två subpages anars kan det vara overwhelming och man kanske inte hinner göra färdigt allt. 
