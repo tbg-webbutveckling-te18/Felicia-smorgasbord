@@ -47,7 +47,13 @@ body {
 }
 
 .item:hover {
-    animation: 
+    transform: scale(1.05);
+    transition: 1s;
+    filter: grayscale(0%);
+}
+
+.item {
+    filter: grayscale(90%);
 }
 
 .item:nth-child(1) {
