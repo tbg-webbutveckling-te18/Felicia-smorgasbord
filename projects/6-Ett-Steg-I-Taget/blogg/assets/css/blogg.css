@@ -10,21 +10,49 @@ html {
 }
 
 body {
+    background-color: #3C1642;
     
+}
+
+.blogg_name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+    color: #070207;
 }
 
 article {
+    background-color: #f6e9f8;
+    width: 65%;
     
+    margin: auto;
 }
 
-article a p {
-    
+hr {
+    width: 65%;
+    margin: auto;
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #b756c7, rgba(0,0,0,0));
 }
 
-article h1 {
-    
+article a {
+    text-decoration: none;
 }
 
-article p {
-    
+article a .user {
+    color: #ca82d5;
+}
+
+article .blogg_post {
+    color: #070207;
+}
+
+article .text {
+    color: #070207;
+}
+
+article .date {
+    color: #ddaee4;
 }
