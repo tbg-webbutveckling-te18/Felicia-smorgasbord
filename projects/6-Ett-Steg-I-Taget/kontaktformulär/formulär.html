@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms introduction</title>
+    <link rel="stylesheet" href="assets/css/formul%C3%A4r.css">
+</head>
+<body>
+    <section class="form-container">
+       <!-- action = addressen dit all data kickas -->
+        <!--   method = vilken metod som ska användas    -->
+        <form action="mailto:felicia.stenvall2244@gmail.com" class="test-form">
+            <fieldset>
+                <legend>kontaktformulär</legend>
+                <p>
+                    <label for="username">username</label>
+                    <input type="text" required id="username"> <span class="form-required">*</span>
+                </p>
+                <p>
+                    <label for="">email</label>
+                    <input type="email" reqired> <span class="form-required">*</span>
+                </p>
+                <p>
+                   <label for="">ditt medelande</label>
+                    <textarea maxlength="250"></textarea>
+                </p>
+                <p>
+                    <label for="">password</label>
+                    <input type="password">
+                </p>
+                <p>
+                    <button type="submit">skicka</button>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
