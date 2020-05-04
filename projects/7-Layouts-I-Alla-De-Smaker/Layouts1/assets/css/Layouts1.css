@@ -42,7 +42,7 @@ body {
 header {
     grid-area: header;
     
-    height: 15vh;
+    height: 30vh;
     
     background-color: pink;
 }
@@ -50,7 +50,7 @@ header {
 .menu-links {
     grid-area: nav;
     
-    min-height: 5vh;
+    min-height: 10vh;
     
     background-color: darkred;
 }
@@ -58,13 +58,25 @@ header {
 main {
     grid-area: main;
     
-    height: 90vh;
+    height: 150vh;
     
     background-color: bisque;
+    
+    grid-template-columns: 1fr 1fr;
+    display: flex;
 } 
 
 .grid-item-child {
 
+}
+
+.blogg {
+    margin: auto;
+    
+    height: 95%;
+    width: 65vw;
+    
+    background-color: darkcyan;
 }
 
 .blogg1 {
@@ -80,39 +92,46 @@ main {
 }
 
 aside {
+    margin: auto;
     
+    height: 95%;
+    width: 30vw;
+    
+    background-color: crimson;
 }
 
 .newsletter {
-    
+    background-color: firebrick;
 }
 
 .feature {
-    
+    background-color: darkslateblue;
 }
 
 .credibility {
-    
+    background-color: cornflowerblue;
 }
 
 .smal-grid-container {
-    
+    background-color: cadetblue;
 }
 
 .promo {
-    
+    background-color: darkgoldenrod;
 }
 
 .list-of-sevice {
-    
+    background-color: coral;
 }
 
 .social-media {
-    
+    background-color: darkkhaki;
 }
 
 footer {
+    background-color: aquamarine;
+    
     grid-area: footer;
     
-    height: 10vh;
+    height: 20vh;
 }
