@@ -58,7 +58,7 @@ header {
 main {
     grid-area: main;
     
-    height: 150vh;
+    min-height: 250vh;
     
     background-color: bisque;
     
@@ -71,10 +71,11 @@ main {
 }
 
 .blogg {
-    margin: auto;
+    margin: 10px;
+    padding: 0px;
     
     height: 95%;
-    width: 65vw;
+    width: 66%;
     
     background-color: darkcyan;
 }
@@ -92,39 +93,53 @@ main {
 }
 
 aside {
-    margin: auto;
+    margin: 10px;
     
-    height: 95%;
+    height: 98%;
     width: 30vw;
     
     background-color: crimson;
 }
 
 .newsletter {
+    height: 20%;
+    
     background-color: firebrick;
 }
 
 .feature {
+    height: 30%;
+    
     background-color: darkslateblue;
 }
 
 .credibility {
+    height: 20%;
+    
     background-color: cornflowerblue;
 }
 
 .smal-grid-container {
+    height: 30%;
+    
     background-color: cadetblue;
 }
 
 .promo {
+    height: 10vh;
+    
     background-color: darkgoldenrod;
 }
 
 .list-of-sevice {
+    height: 10vh;
+    
     background-color: coral;
 }
 
 .social-media {
+    height: 10vh;
+    
     background-color: darkkhaki;
 }
 
