@@ -102,31 +102,38 @@ aside {
 }
 
 .newsletter {
-    height: 20%;
+    height: 40vh;
     
     background-color: firebrick;
 }
 
 .feature {
-    height: 30%;
+    height: 60vh;
     
     background-color: darkslateblue;
 }
 
 .credibility {
-    height: 20%;
+    height: 40vh;
     
     background-color: cornflowerblue;
 }
 
 .smal-grid-container {
-    height: 30%;
+    height: 40vh;
     
     background-color: cadetblue;
+    
+    display: grid;
+    grid-template-areas:
+        "left right"
+        "bottom bottom";
 }
 
 .promo {
     height: 10vh;
+    
+    grid-area: left;
     
     background-color: darkgoldenrod;
 }
@@ -134,11 +141,15 @@ aside {
 .list-of-sevice {
     height: 10vh;
     
+    grid-area: right;
+    
     background-color: coral;
 }
 
 .social-media {
     height: 10vh;
+    
+    grid-area: bottom;
     
     background-color: darkkhaki;
 }
