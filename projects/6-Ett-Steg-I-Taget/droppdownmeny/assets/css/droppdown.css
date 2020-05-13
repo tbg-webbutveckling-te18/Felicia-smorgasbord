@@ -20,6 +20,11 @@ body {
     background-color: #ccffff;
 }
 
+ul {
+        overflow: hidden;
+
+}
+
 .main-list {
     list-style: none;
     text-align: center;
@@ -32,28 +37,28 @@ li {
     font-size: 28px;
 }
 
-.sub-menu-1 {
-    opacity: 0;
-    height: 0;
-    font-size: 20px;
+.main-list:hover .sub-menu-1 {
+    height: 35px;
+    transition: 5.25s;
+    opacity: 2;
     
 }
 
-.sub-menu-2 {
-    opacity: 0;
+.sub-menu-1 {
+    opacity: 1;
     height: 0;
     font-size: 20px;
-}
-
-.main-list:hover .sub-menu-1 {
-    height: 35px;
-    transition: 1.25s;
-    opacity: 2;
     
 }
 
 .sub-list:hover .sub-menu-2 {
     height: 35px;
-    transition: 1.25s;
+    transition: 5.25s;
     opacity: 2;
+}
+
+.sub-menu-2 {
+    opacity: 1;
+    height: 0;
+    font-size: 20px;
 }
