@@ -50,45 +50,84 @@ nav {
 }
 
 .main {
-    height: ;
+    height: 500px;
     width: ;
     
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     
     background-color: #a922d1;
 
 }
 
 .left {
-    height: 10%;
-    width: auto;
+    height: 100%;
+    flex: 1;
     
     background-color: #e37952;
+    
+    display: grid;
+    grid-template-rows: ;
+}
 
+.deal {
+    background-color: aqua;
+}
+
+.partner {
+    background-color: aquamarine;
+}
+
+.highlighted {
+    background-color: bisque;
 }
 
 .half {
     height: 100%;
-    width: auto;
+    flex: 1;
     
     background-color: #00808b;
-
+    
+    display: flex;
 }
 
 .middle {
     height: ;
-    width: ;
+    flex: 1;
     
     background-color: #008b00;
+    
+    display: grid;
+    grid-template-rows: ;
+}
 
+.membership {
+    background-color: brown;
+}
+
+.pet {
+    background-color: coral;
 }
 
 .right {
     height: ;
-    width: ;
+    flex: 1;
     
     background-color: #7b8b00;
+    
+    display: grid;
+    grid-template-rows: ;
+}
 
+.description {
+    background-color: burlywood;
+}
+
+.blogg {
+    background-color: cadetblue;
+}
+
+.forum {
+    
 }
 
 .fot {
