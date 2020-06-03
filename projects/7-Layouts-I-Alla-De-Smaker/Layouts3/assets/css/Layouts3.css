@@ -241,12 +241,18 @@ footer {
     
     min-height: 100px;
     
+    
+}
+
+footer section {
     display: flex;
     justify-content: space-around;
 }
 
 .fooot {
+/*
     border: 2px solid black;
+*/
     
     width: 150px;
     height: 90px;
@@ -254,39 +260,18 @@ footer {
     margin: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    
+    display: flex;
+    flex-flow: column;
 }
 
-.fooot {
-    border: 2px solid black;
+.footer {
     
-    width: 150px;
-    height: 90px;
-    
-    margin: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
-.fooot {
-    border: 2px solid black;
-    
-    width: 150px;
-    height: 90px;
-    
-    margin: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.fooot {
-    border: 2px solid black;
-    
-    width: 150px;
-    height: 90px;
-    
-    margin: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+.footer p {
+    font-size: 14px;
+    /* margin-bottom: 5px; */
 }
 
 .box {
@@ -296,4 +281,13 @@ footer {
     height: 20px;
     
     margin: 5px;
+}
+
+.fooot p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+/*
+    margin-left: 0px;
+*/
 }
