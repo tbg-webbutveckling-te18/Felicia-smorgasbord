@@ -22,7 +22,7 @@ h1 {
     
     display: grid;
     grid-auto-rows: 200px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4px;
     
     background-color: #41beb7;
@@ -50,9 +50,9 @@ h1 {
     background-color: #67cbac;
 }
 
-/* .grid-container a:hover {
+.grid-container a:hover {
     -webkit-box-shadow: 2px 2px 3px black, -2px -2px 3px black; 
-} */
+}
 
 /*.grid-item {
     
