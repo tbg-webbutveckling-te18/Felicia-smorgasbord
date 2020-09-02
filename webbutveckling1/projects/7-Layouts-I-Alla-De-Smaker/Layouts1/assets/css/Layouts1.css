@@ -1,0 +1,180 @@
+@charset 'utf-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+.grid-container {
+    background-color: blueviolet;
+    
+    width: 99%;
+    min-height: 100vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    grid-template-columns: ;
+    grid-template-rows: ;
+    
+}
+
+.grid-item {
+    
+}
+
+header {
+    margin: 10px;
+    
+    grid-area: header;
+    
+    height: 30vh;
+    
+    background-color: pink;
+}
+
+.menu-links {
+    margin: 10px;
+    margin-top: 0px;
+    
+    grid-area: nav;
+    
+    min-height: 10vh;
+    
+    background-color: darkred;
+}
+
+main {
+    grid-area: main;
+    
+    min-height: 180vh;
+    
+    background-color: bisque;
+    
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+} 
+
+.grid-item-child {
+
+}
+
+.blogg {
+    margin: 10px;
+    padding: 0px;
+    
+    min-height: 100vh;
+    width: 66%;
+    
+    background-color: darkcyan;
+}
+
+.blogg1 {
+    min-height: 30%;
+    width: ;
+    
+    background-color: #4da5c6;
+}
+
+.blogg2 {
+    min-height: 30%;
+    width: ;
+    
+    background-color: #329855;
+}
+
+.blogg3 {
+    min-height: 40%;
+    width: ;
+    
+    background-color: #bf5188;
+}
+
+aside {
+    margin: 10px;
+    
+    height: 98%;
+    width: 30vw;
+    
+    background-color: crimson;
+}
+
+.newsletter {
+    min-height: 40vh;
+    
+    background-color: firebrick;
+}
+
+.feature {
+    min-height: 60vh;
+    
+    background-color: darkslateblue;
+}
+
+.credibility {
+    min-height: 40vh;
+    
+    background-color: cornflowerblue;
+}
+
+.smal-grid-container {
+    min-height: 40vh;
+    
+    background-color: cadetblue;
+    
+    display: grid;
+    grid-template-areas:
+        "left right"
+        "bottom bottom";
+}
+
+.promo {
+    min-height: 20vh;
+    
+    grid-area: left;
+    
+    background-color: darkgoldenrod;
+}
+
+.list-of-sevice {
+    min-height: 20vh;
+    
+    grid-area: right;
+    
+    background-color: coral;
+}
+
+.social-media {
+    min-height: 20vh;
+    
+    grid-area: bottom;
+    
+    background-color: darkkhaki;
+}
+
+footer {
+    margin: 10px;
+    margin-top: 0px;
+    
+    background-color: aquamarine;
+    
+    grid-area: footer;
+    
+    min-height: 20vh;
+}

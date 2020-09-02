@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>forms introduction</title>
+    <link rel="stylesheet" href="assets/css/formular.css">
+</head>
+<body>
+    <section class="form-container">
+        <!-- action = addressen dit all data kickas -->
+        <!--   method = vilken metod som ska användas    -->
+        <form action="mailto:felicia.stenvall2244@gmail.com" class="test-form">
+            <fieldset>
+                <p>
+                    <label for="username"><i class="fas fa-house-user"></i> Username <span class="form-required">*</span></label>
+                    <input type="text" required id="username" placeholder="Skriv ditt användarnamn här..."> 
+                </p>
+                
+                <p>
+                    <label for="country"><i class="fas fa-globe-europe"></i> Country <span class="form-required">*</span></label>
+                    <input type="text" required id="country" placeholder="Vilket land bor du i..."> 
+                </p>
+                
+                <p>
+                    <label for="email"><i class="far fa-envelope"></i> E-Mail <span class="form-required">*</span></label>
+                    <input type="email" required id="email" placeholder="Skriv din e-postadress här..."> 
+                </p>
+                
+                <p>
+                    <label for="">Your message: </label>
+                    <textarea maxlength="250" placeholder="Skriv ditt meddelande här..."></textarea>
+                </p>
+                
+                <p>
+                    <label for="">Password</label>
+                    <input type="password">
+                </p>
+                
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

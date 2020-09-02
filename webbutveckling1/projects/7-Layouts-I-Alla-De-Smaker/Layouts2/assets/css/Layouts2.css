@@ -1,0 +1,139 @@
+@charset 'utf-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 150px minmax(500px, auto) 60px;
+}
+
+.head {
+    height: ;
+    width: ;
+    
+    background-color: darkblue;
+    display: grid;
+    grid-template-areas: 
+        "logo ad ad"
+        "nav nav nav";
+}
+
+.logo {
+    height: 90px;
+    
+    grid-area: logo;
+    
+    background-color: #9393ed;
+
+}
+
+.ad {
+    height: 90px;
+    
+    grid-area: ad;
+    
+    background-color: #008b60;
+
+}
+
+nav {
+    height: 60px;
+    width: auto;
+    
+    grid-area: nav;
+    
+    background-color: #4a0e15;
+
+}
+
+.main {
+    height: 500px;
+    width: ;
+    
+    display: flex;
+    
+    background-color: #a922d1;
+
+}
+
+.left {
+    height: 100%;
+    flex: 1;
+    
+    background-color: #e37952;
+    
+    display: grid;
+    grid-template-rows: ;
+}
+
+.deal {
+    background-color: aqua;
+}
+
+.partner {
+    background-color: aquamarine;
+}
+
+.highlighted {
+    background-color: bisque;
+}
+
+.half {
+    height: 100%;
+    flex: 1;
+    
+    background-color: #00808b;
+    
+    display: flex;
+}
+
+.middle {
+    height: ;
+    flex: 1;
+    
+    background-color: #008b00;
+    
+    display: grid;
+    grid-template-rows: ;
+}
+
+.membership {
+    background-color: brown;
+}
+
+.pet {
+    background-color: coral;
+}
+
+.right {
+    height: ;
+    flex: 1;
+    
+    background-color: #7b8b00;
+    
+    display: grid;
+    grid-template-rows: ;
+}
+
+.description {
+    background-color: burlywood;
+}
+
+.blogg {
+    background-color: cadetblue;
+}
+
+.forum {
+    
+}
+
+.fot {
+    height: ;
+    width: ;
+    
+    background-color: #8b0050;
+
+}

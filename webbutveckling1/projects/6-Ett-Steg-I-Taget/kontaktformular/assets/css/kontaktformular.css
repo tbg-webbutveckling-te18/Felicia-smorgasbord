@@ -1,0 +1,47 @@
+ @charset 'utf-8';
+
+* {
+    padding: 0px; 
+    margin: 0px;
+}
+
+body {
+    background-color: teal;
+    margin: 40px;
+} 
+
+.header {
+    
+}
+
+.form-container {
+    width: 50%;
+    min-height: 40vh;
+    
+    padding: 20px;
+    
+    border: 1px solid black;
+    
+    background-color: white;
+}
+
+.user {
+    
+}
+
+.form-required {
+    color: red;
+}
+
+#username {
+    
+}
+
+.mail {
+    
+}
+
+#email {
+    
+}
+
