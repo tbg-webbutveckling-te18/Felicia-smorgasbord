@@ -3,7 +3,7 @@
 body {
     background-color: #b741be;
 }
-
+ 
 h1 {
     text-align: center;
     border: 2px solid black;
@@ -50,9 +50,9 @@ h1 {
     background-color: #67cbac;
 }
 
-/* .grid-container a:hover {
-    -webkit-box-shadow: 2px 2px 3px black, -2px -2px 3px black; 
-} */
+.grid-container a:hover {
+    box-shadow: 2px 2px 3px black, -2px -2px 3px black; 
+}
 
 /*.grid-item {
     
