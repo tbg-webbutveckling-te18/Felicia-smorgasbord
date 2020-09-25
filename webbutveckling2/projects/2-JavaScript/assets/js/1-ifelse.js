@@ -56,3 +56,58 @@ if (d.getHours() < 10) {
 } else {
     console.log("Good Evnin'");
 }
+
+
+
+var grade = 'A';
+switch(grade) {
+    case 'A':
+        console.log('Great job!');
+        break;
+    case 'B':
+        console.log('Good job!');
+        break;
+    case 'C':
+        console.log('Good job.');
+        break;
+    case 'D':
+        console.log('Good job.');
+        break;
+    case 'E':
+        console.log('Good job.');
+        break;
+    case 'F':
+        console.log('You did not pass.');
+        break;
+    default:
+        console.log('Unknown grade.');
+}
+
+
+var weekDay = new Date();
+
+switch(weekDay.getDay()) {
+    case 0:
+        console.log('Sunday, the last day of the week.'); 
+        break;
+    case 1:
+        console.log('Today is Monday.');
+        break;
+    case 2:
+        console.log('Today is Tuseday.');
+        break;
+    case 3:
+        console.log('Today is wednesday.');
+        break;
+    case 4:
+        console.log('Today is Thursday.');
+        break;
+    case 5:
+        console.log('Friday! letz gooo!');
+        break;
+    case 6:
+        console.log('Today is Saturday.');
+        break;
+    default:
+        console.log('unknown day');
+}

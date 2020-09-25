@@ -22,7 +22,8 @@ h1 {
 
 .grid-container {
     width: 80vw;
-    min-height: 90vh;
+    /* min-height: 90vh; */
+    min-height: 350px;
     
     font-family: 'Odibee Sans', cursive;
     text-align: center;
@@ -33,7 +34,7 @@ h1 {
     padding: 10px;
     
     display: grid;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 350px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4px;
     
@@ -55,7 +56,7 @@ h1 {
 
 .grid-container a:nth-child(even) {
     background-color: #67cbc5;
-    border: 2px solid #54c5be;
+    /* border: 2px solid #54c5be; */
 }
 
 .grid-container a:nth-child(odd) {
