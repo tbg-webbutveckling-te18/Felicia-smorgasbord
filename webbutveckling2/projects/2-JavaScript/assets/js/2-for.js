@@ -119,3 +119,59 @@ for (var i = 0; i < 5; i++) {
     }
     document.writeln('<br>');
 }
+
+document.writeln("--------------------<br>");
+
+// var multi = 9;
+// for (var num = 0; num <= 10; num++) {
+//     var result = num * multi;
+//     document.writeln(num + ' * ' + multi + ' = ' + result + '<br>');
+// }
+
+
+for (var i = 0; i <= 10; i++) {
+    for (var j = 0; j <= 10; j++) {
+        var res = i * j;
+        document.writeln(i + ' * ' + j + ' = ' + res + '<br>');
+    }
+    document.writeln('<br>');
+}
+
+document.writeln("--------------------<br>");
+
+// var codeArr = ['CSS', 'HTML', 'JS', 18, true];
+// var len = codeArr.length;
+// for (var i = 0; i < len; i++) {
+//     document.writeln('Language: ' + codeArr[i] + '<br>');
+// }
+
+var codeArr = ['Cyan', 'Magenta', 'Indian Yellow', 'Emerald Green']; 
+var len = codeArr.length;
+for (var i = 0; i < len; i++) {
+    j = i + 1
+    document.writeln('My #' + j + ' choise is ' + codeArr[i] + '<br>');
+}
+
+document.writeln("--------------------<br>");
+
+var codeArr = ['Cyan', 'Magenta', 'Indian Yellow', 'Emerald Green', 'Pthalo Blue', 'Sap Green', 'Ultramarine Blue', 'Raw Sienna', 'Burnt Sienna', 'Raw Umber', 'Burnt Umber', 'Titanium White']; 
+var len = codeArr.length;
+for (var i = 0; i < len; i++) {
+    j = i + 1
+    if (j == 1) {
+        document.writeln('My ' + j + 'st choice is ' + codeArr[i]);
+    } 
+    else if (j == 2) {
+        document.writeln('My ' + j + 'nd choice is ' + codeArr[i]);
+    } 
+    else if (j == 3) {
+        document.writeln('My ' + j + 'rd choice is ' + codeArr[i]);
+    } 
+    else {
+        document.writeln('My ' + j + 'th choice is ' + codeArr[i]);
+    }
+    document.writeln('<br>');
+}
+
+document.writeln("--------------------<br>");
+
