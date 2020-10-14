@@ -158,13 +158,13 @@ var codeArr = ['Cyan', 'Magenta', 'Indian Yellow', 'Emerald Green', 'Pthalo Blue
 var len = codeArr.length;
 for (var i = 0; i < len; i++) {
     j = i + 1
-    if (j == 1) {
+    if (j === 1) {
         document.writeln('My ' + j + 'st choice is ' + codeArr[i]);
     } 
-    else if (j == 2) {
+    else if (j === 2) {
         document.writeln('My ' + j + 'nd choice is ' + codeArr[i]);
     } 
-    else if (j == 3) {
+    else if (j === 3) {
         document.writeln('My ' + j + 'rd choice is ' + codeArr[i]);
     } 
     else {
