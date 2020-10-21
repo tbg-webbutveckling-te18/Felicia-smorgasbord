@@ -1,18 +1,18 @@
 
 
-document.writeln('Twinkle, twinkle, little star <br>');
-document.writeln('how i wonder what you are <br>');
-document.writeln('up above the world so high <br>');
-document.writeln('like a diamond in the sky <br>');
+// document.writeln('Twinkle, twinkle, little star <br>');
+// document.writeln('how i wonder what you are <br>');
+// document.writeln('up above the world so high <br>');
+// document.writeln('like a diamond in the sky <br>');
 
-document.writeln('<br>');
+// document.writeln('<br>');
 
-document.writeln('Twinkle, twinkle, little star <br>');
-document.writeln('how i wonder what you are <br>');
-document.writeln('up above the world so high <br>');
-document.writeln('like a diamond in the sky <br>');
+// document.writeln('Twinkle, twinkle, little star <br>');
+// document.writeln('how i wonder what you are <br>');
+// document.writeln('up above the world so high <br>');
+// document.writeln('like a diamond in the sky <br>');
 
-document.writeln("<br>----------------------------------<br>" + ' <br>');
+// document.writeln("<br>----------------------------------<br>" + ' <br>');
 
 function twinkle() {
     document.writeln('Twinkle, twinkle, little star <br>');
@@ -23,8 +23,8 @@ function twinkle() {
     document.writeln('<br>');
 }
 
-twinkle();
-twinkle();
+// twinkle();
+// twinkle();
 
 // document.writeln('<br>' + twinkle);
 
@@ -112,3 +112,61 @@ var word = 'Hello-there-friend';
 kebabToSnake(word);
 
 document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
+
+var p = document.getElementById('scopes'); // global scope
+
+// declare
+function localScope() {
+    var localVar = 31;
+    p.innerHTML = localVar;
+}
+
+// call
+localScope();
+
+// document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
+
+var globalVar = 'This is a global var';
+
+p.innerHTML = globalVar;
+p.style.fontSize = '20px';
+p.style.color = 'lightGreen';
+
+function changeGlobalVar() {
+    globalVar = 'Hah! I got a new value now!';
+    p.innerHTML = globalVar;
+}
+
+changeGlobalVar();
+
+function tricky() {
+    var globalVar = 'Am i a local variable?';
+    p.innerHTML = globalVar;
+}
+
+tricky();
+p.innerHTML = globalVar;
+
+// document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
+
+function myTimer() {
+    var d = new Date();
+    var clock = document.getElementById('clock');
+    clock.innerHTML = d.toLocaleTimeString();
+}
+
+myTimer();
+
+var seconds = setInterval(myTimer, 1000);
+var btnStopTime = document.getElementsByClassName('stopTime')[0];
+var doomsStr = document.getElementById('doomsMessage');
+
+btnStopTime.addEventListener('click', function() {
+    clearInterval(seconds);
+    doomsStr.innerHTML = 'Hahah! time is stoped forever!';
+    doomsStr.style.transition = 'all .4s ease';
+    doomsStr.style.fontSize = '60px';
+    doomsStr.style.color = 'crimson';
+});
+
+// document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
