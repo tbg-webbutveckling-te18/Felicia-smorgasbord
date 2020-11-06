@@ -194,3 +194,27 @@ btnFortune.addEventListener('click', function() {
 
     tellFortune(randomJob, randomPlace, randomPartner, randomKids);
 });
+
+document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
+
+function calculateDogAge(puppyAge, human) {
+        var dogAge = puppyAge * 7;
+        var humanAge = Math.round(human / 7);
+        document.writeln(`Your puppy is ${dogAge} years old in dog years and you, human, is ${humanAge} years old in dog years.`);
+}
+
+calculateDogAge(2, 18); 
+
+document.writeln(' <br> ' + '<br>----------------------------------<br>' + ' <br>');
+
+
+var yourCurrentAge = 18;
+var numberOfPizza = 3;
+
+function calculateSupply(yourCurrentAge, numberOfPizza) {
+        var yearsLeftToLive = 100 - yourCurrentAge;
+        var pizzaYouNeed = Math.rounsd(yearsLeftToLive * 365 * numberOfPizza);
+        document.writeln(`You have ${yearsLeftToLive} years left to live and need ${pizzaYouNeed} pizzas to last you for the rest of your life.`);
+}
+
+calculateSupply(yourCurrentAge, numberOfPizza);
