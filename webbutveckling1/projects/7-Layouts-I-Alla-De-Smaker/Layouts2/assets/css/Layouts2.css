@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 * {
     margin: 0px;
@@ -51,7 +51,7 @@ nav {
 
 .main {
     height: 500px;
-    width: ;
+    /* width: ; */
     
     display: flex;
     
@@ -66,7 +66,7 @@ nav {
     background-color: #e37952;
     
     display: grid;
-    grid-template-rows: ;
+    /* grid-template-rows: ; */
 }
 
 .deal {
@@ -91,13 +91,13 @@ nav {
 }
 
 .middle {
-    height: ;
+    /* height: ; */
     flex: 1;
     
     background-color: #008b00;
     
     display: grid;
-    grid-template-rows: ;
+    /* grid-template-rows: ; */
 }
 
 .membership {
@@ -109,13 +109,13 @@ nav {
 }
 
 .right {
-    height: ;
+    /* height: ; */
     flex: 1;
     
     background-color: #7b8b00;
     
     display: grid;
-    grid-template-rows: ;
+    /* grid-template-rows: ; */
 }
 
 .description {
@@ -131,8 +131,8 @@ nav {
 }
 
 .fot {
-    height: ;
-    width: ;
+    /* height: ; */
+    /* width: ; */
     
     background-color: #8b0050;
 

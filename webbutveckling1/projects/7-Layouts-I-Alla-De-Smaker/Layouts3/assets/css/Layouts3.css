@@ -1,13 +1,13 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-.navigation {
+/* .navigation {
     
-}
+} */
 
 .logo {
     height: 50px;
@@ -265,9 +265,9 @@ footer section {
     flex-flow: column;
 }
 
-.footer {
+/* .footer {
     
-}
+} */
 
 .footer p {
     font-size: 14px;

@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 * {
     margin: 0px;
@@ -30,14 +30,14 @@ body {
         "nav"
         "main"
         "footer";
-    grid-template-columns: ;
-    grid-template-rows: ;
+    /* grid-template-columns: ;
+    grid-template-rows: ; */
     
 }
 
-.grid-item {
+/* .grid-item {
     
-}
+} */
 
 header {
     margin: 10px;
@@ -71,9 +71,9 @@ main {
     display: flex;
 } 
 
-.grid-item-child {
+/* .grid-item-child {
 
-}
+} */
 
 .blogg {
     margin: 10px;
@@ -87,21 +87,21 @@ main {
 
 .blogg1 {
     min-height: 30%;
-    width: ;
+    /* width: ; */
     
     background-color: #4da5c6;
 }
 
 .blogg2 {
     min-height: 30%;
-    width: ;
+    /* width: ; */
     
     background-color: #329855;
 }
 
 .blogg3 {
     min-height: 40%;
-    width: ;
+    /* width: ; */
     
     background-color: #bf5188;
 }
