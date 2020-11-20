@@ -10,3 +10,61 @@ html {
     height: 100%;
 }
 
+header {
+    height: 120px;
+
+    display: flex;
+
+    background-color: teal;
+}
+
+.headerIcon {
+    height: 100%;
+    flex: 1;
+    /* width: 150px; */
+
+    background-color: slategray;
+}
+
+.header {
+    height: 100%;
+    flex: 4.6;
+    /* width: ; */
+
+    background-color: tomato;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+
+    background-color: violet;
+}
+
+.navImg {
+    height: 100%;
+    flex: 1;
+
+    background-color: wheat;
+}
+
+.nav {
+    height: 100%;
+    flex: 12;
+
+    background-color: aquamarine;
+}
+
+.body {
+    height: 800px;
+    width: 100%;
+
+    background-color: brown;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+
+    background-color: cadetblue;
+}
