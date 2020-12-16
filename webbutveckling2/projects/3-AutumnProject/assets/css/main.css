@@ -37,12 +37,33 @@ header {
     /* background-color: slategray; */
 }
 
+.headerIcon img {
+    height: 100%;
+
+}
+
 .header {
     height: 100%;
     flex: 4.6;
     /* width: ; */
 
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     /* background-color: tomato; */
+}
+
+.header input {
+    height: 30px;
+    width: 200px;
+}
+
+.header button {
+    height: 30px;
+    width: 50px;
 }
 
 nav {
@@ -73,17 +94,23 @@ nav {
     height: 40px;
 }
 
-/* .navImg:hover nav{
-    /* height: 100px; */
-    /* transition: 0.25s;
-    opacity: 1; */
-} */
+ul {
+    color: rgb(177, 173, 173);
+}
 
 li {
     list-style: none;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
+    /* padding-bottom: 10px; */
+    /* color: seashell; */
+    /* text-decoration: rgb(177, 173, 173); */
+    
+}
 
+a {
+    color: rgb(177, 173, 173);
+    text-decoration: none;
 }
 
 .navImg:hover {
@@ -91,35 +118,44 @@ li {
     align-items: flex-start;
     margin-left: 10px;
 }
-
-.navImg:hover .menu {
-    display: block;
-
-    margin-left: 5px;
-    margin-top: 15px;
-    margin-bottom: 5px;
-
-    opacity: 1;
-    height: 30px;
-    transition: .5s;
-}
-
 .menu {
     opacity: 0;
     height: 0;
 }
-
-.menu:hover .list {
-    opacity: 1;
-    height: 30px;
-} 
-
 .list {
     opacity: 0;
     height: 0;
 
-    font-size: 20px;
+    font-size: 15px;
 }
+.navImg:hover .menu {
+    display: block;
+
+    margin-left: 5px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 2px; */
+
+    opacity: 1;
+    height: auto;
+    /* background-color: red; */
+    transition: .5s;
+}
+
+
+.menu:hover .list {
+    display: block;
+
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    height: 15px;
+    /* background-color: blue; */
+    opacity: 1;
+    transition: .5s;
+} 
+
+
 
 .nav {
     height: 100%;
@@ -143,5 +179,6 @@ footer {
     width: 100%;
 
     background-color: rgb(58, 58, 58);
+    /* margin-bottom: 30px; */
     /* background-color: cadetblue;*/
 } 
