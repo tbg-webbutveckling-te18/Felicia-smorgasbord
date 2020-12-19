@@ -155,49 +155,36 @@ a {
 
     background-color: rgb(58, 58, 58);
     border-bottom: 2px solid rgb(46, 45, 45);
-}
 
-h1, p, h3 {
-    color: rgb(231, 233, 232);
-}
-
-.example1, .example2 {
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 
-.info1, .info2 {
-    flex: 1.5;
-}
 
-.infoImg1 {
-    height: 120px;
-    flex: 1;
 
-    margin: 40px;
-    margin-top: 65px;
-}
+h1 {
+    color: rgb(231, 233, 232);
 
-.title1 {
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-top: 30px;
     padding: 10px;
     padding-top: 20px;
 
     font-size: 30px;
 }
 
-.infoText1, .infoText2 {
-    margin-left: 20px;
+p {
+    color: rgb(231, 233, 232);
+
+    /* margin-left: 20px; */
+    margin-top: 30px;
     padding: 5px;
 
+    width: 560px;
+
     font-size: 18px;
-}
-
-.title2 {
-    margin-left: 10px;
-    padding: 10px;
-    padding-top: 20px;
-
-    font-size: 22px;
 }
 
 footer {
