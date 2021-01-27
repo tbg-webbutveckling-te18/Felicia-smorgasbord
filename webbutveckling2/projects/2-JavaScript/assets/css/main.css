@@ -31,3 +31,18 @@ body {
 .stopTime:active {
     transform: scale(1.2);
 }
+
+/* 
+**************
+     Object.html
+**************
+*/
+
+.posts {
+    width: 50%;
+    min-height: 300px;
+    margin: auto;
+
+    border: 10px double black;
+    padding: 20px;
+}
