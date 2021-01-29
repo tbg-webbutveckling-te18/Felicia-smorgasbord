@@ -3,8 +3,8 @@
 body {
     background-color: #7c7eaf;
 
-    padding-left: 100px;
-    padding-top: 40px;
+    /* padding-left: 100px;
+    padding-top: 40px; */
 }
 
 .time {
@@ -38,11 +38,37 @@ body {
 **************
 */
 
-.posts {
-    width: 50%;
+.container {
+    display: flex;
+}
+
+#firstOutput, .posts {
     min-height: 300px;
-    margin: auto;
+    flex: 1;
 
     border: 10px double black;
     padding: 20px;
+}
+
+/* .posts {
+    /* width: 50%;
+    min-height: 300px;
+    /* margin: auto; */
+
+    /* border: 10px double black; */
+    /* padding: 20px; */ 
+/* } */ 
+
+.updateCity {
+    width: 150px;
+    height: 16px;
+}
+
+.updateCity:focus {
+    width: 200px;
+    height: 20px;
+    border: none;
+    outline: none;
+
+    transition: all .4s;
 }
