@@ -67,8 +67,18 @@ posts.forEach(function(post) {
 })
 
 var input = document.querySelector(".updateCity");
+var city = document.querySelector(".city");
 input.addEventListener('keydown', function(e) {
     if(e.key === 'Enter') {
+        city.innerHTML = input.value;
         // alert('sdfghj')
     }
+})
+
+var toggle = document.querySelector(".btnToggle");
+toggle.addEventListener('click', function () {
+    // classList.add 
+    // classList.remove
+    city.classList.toggle("changeText");
+    // prompt("OK?"); 
 })
