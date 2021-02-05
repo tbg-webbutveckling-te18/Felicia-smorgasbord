@@ -82,3 +82,18 @@ toggle.addEventListener('click', function () {
     city.classList.toggle("changeText");
     // prompt("OK?"); 
 })
+
+
+
+var opc = document.querySelector("#outputCalc");
+var countObj = {
+   someText: `This is some text`,
+   multiply: function(x, y) {
+       return x * y;
+   },
+   divide: function(x, y) {
+       return x / y;
+   }
+}
+
+opc.innerHTML = countObj.multiply(10, 5);
