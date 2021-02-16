@@ -84,6 +84,46 @@ toggle.addEventListener('click', function () {
 })
 
 
+/*
+**********************
+    MovieDB
+**********************
+*/
+
+var movies = [ 
+    {
+        title: 'Deadpool',
+        rating: 4,
+        hasWatched: true
+    },
+    {
+        title: 'The Mimic',
+        rating: 3,
+        hasWatched: false
+    },
+    {
+        title: 'Spirited Away',
+        rating: 5,
+        hasWatched: true
+    },
+    {
+        title: 'Nerve',
+        rating: 2.5,
+        hasWatched: true
+    }
+];
+
+movies.forEach(function(movie) {
+    if (movie.hasWatched === false) {
+        console.log(`You have not watched ${movie.title} : Rated ${movie.rating} stars`)
+    } else {
+        console.log(`You have watched ${movie.title} : Rated ${movie.rating} stars`)
+    }
+})
+
+
+
+
 
 var opc = document.querySelector("#outputCalc");
 var countObj = {
@@ -96,4 +136,87 @@ var countObj = {
    }
 }
 
-opc.innerHTML = countObj.multiply(10, 5);
+// opc.innerHTML = countObj.multiply(prompt("Tal 1"), prompt("Tal 2"));
+
+
+// animal sound library
+
+var outputSound = document.querySelector(".animalSound");
+var btnAnimal = document.querySelectorAll(".btnAnimal");
+
+var animalSound = {
+    dog: function() {
+        outputSound.innerHTML = 'Woof!';
+    },
+    cat: function() {
+        outputSound.innerHTML = 'Meow!'
+    },
+    wolf: function() {
+        outputSound.innerHTML = 'Awoo!';
+    },
+    cow: function() {
+        outputSound.innerHTML = 'Mooo!'
+    }
+}
+
+for(var i = 0; i < btnAnimal.length; i++) {
+    btnAnimal[i].addEventListener('click', function() {
+        switch (this.innerHTML) {
+            case 'Dog': {
+                animalSound.dog();
+                break;
+            }
+            case 'Cat': {
+                animalSound.cat();
+                break;
+            }
+            case 'Wolf': {
+                animalSound.wolf();
+                break;
+            }
+            case 'Cow': {
+                animalSound.cow();
+                break;
+            }
+        }
+    })
+    btnAnimal[i].addEventListener('mouseover', function() {
+        // this.style.backgroundColor = "Coral";
+        this.classList.add("toggleBtnBG")
+    })
+
+    btnAnimal[i].addEventListener('mouseleave', function() {
+        // this.style.backgroundColor = "";
+        this.classList.remove("toggleBtnBG")
+    })
+}
+
+var addFriend = document.querySelector(".friend");
+var removeFriend = document.querySelector(".unfriend");
+
+var users = {
+    friends: ['Matthew', 'Sara', 'Hana'],
+    addFriend: function(friend) {
+        this.friends.push(friend);
+    },
+    removeFriend: function() {
+        this.friends.pop();
+    }
+}
+
+addFriend.addEventListener("click", function() {
+    users.addFriend(prompt("Add new friend's name:"));
+    console.log('New friend added.')
+});
+
+removeFriend.addEventListener("click", function() {
+    users.removeFriend();
+    console.log('One friend removed.')
+
+});
+
+var btnDoomed = document.querySelector(".doomed");
+
+youAreDoomed = () => document.body.innerHTML = "lol";
+
+btnDoomed.addEventListener("click", youAreDoomed)
