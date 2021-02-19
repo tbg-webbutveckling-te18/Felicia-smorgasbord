@@ -37,6 +37,9 @@ header h1 {
 .spanLogo {
     color: #007AF3;
 }
+.mobileIcon {
+    display: none;
+}
 
 nav {
     /* background-color: gold; */
