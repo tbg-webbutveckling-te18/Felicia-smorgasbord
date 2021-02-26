@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/tablet.css" media="screen and (max-width: 900px)">
     <link rel="stylesheet" href="assets/css/phone.css" media="screen and (max-width: 550px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -15,6 +17,7 @@
             <h1>My<span class="spanLogo">Logo</span></h1>
             <img src="assets/images/Icon awesome-hamburger.svg" alt="mobile icon" class="mobileIcon">
             <nav class="addFlex mobileMenu">
+                <img src="assets/images/Icon ionic-md-close.svg" alt="mobile close icon" class="mobileIconClose">
                 <ul class="addFlex">
                     <li>Start</li>
                     <li>About</li>
@@ -25,10 +28,68 @@
         </header>
         <main class="addFlex"> 
             <aside class="mainLeft"></aside>
-            <section class="mainCenter"></section>
-            <aside class="mainRight"></aside>
+            <section class="mainCenter">
+                <section class="recipe">
+                    <h1 class="recipeHeader">Spicy Tteokbokki (떡볶이) Recipe</h1>
+                    <div class="ingredients">
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>500g of cylinder shaped rice cake (가래떡), store bought or homemade doesn't matter. (Recipe for homemade rice cake (가래떡) will be further down)</li>
+                            <li>9,5dl water</li>
+                            <li>7 large dried anchovies, with heads and intestines removed</li>
+                            <li>5 x 20cm dried kelp</li>
+                            <li>0,75dl hot pepper paste</li>
+                            <li>1 tablespoon hot pepper flakes</li>
+                            <li>1 tablespoon sugar</li>
+                            <li>3 green onions, cut into 7cm long pieces</li>
+                        </ul>
+                    </div>
+                    <div class="directions">
+                        <p>Directions</p>
+                        <ul>
+                            <li>Add water, dried anchovies and kelp to a shallow pot or pan.</li>
+                            <li>Boil for 15 minutes over medium high heat without a lid.</li>
+                            <li>Cobine hot pepper paste, hot pepper flakes and sugar in a smal bowl. Remove the anchovies and kelp from the pot and add the rice cake (가래떡), the mixture in the bowl and the green onion.</li>
+                            <li>Stir carefully with a wooden spoon when it starts boiling. Keep stirring until the rice cake (가래떡) turns soft and the sauce thickens and looks shiny, the process should take about 10-15 minutes. If the rice cake (가래떡) is not soft enough you can add more water and continue to stir until soften. Freshly made rice cake (가래떡) takes shorter time. If you use frozen rice cake (가래떡) thaw it and soak in cold water to soften before cooking.</li>
+                            <li>Remove from heat and serve.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="recipe">
+                    <h1 class="recipeHeader">Rice Cake (가래떡) Recipe</h1>
+                    <div class="ingredients">
+                        <p>ingredients</p>
+                        <ul>
+                            <li>4,75dl short grain rice flour</li>
+                            <li>0,5 teaspoon salt</li>
+                            <li>1,75dl of water (If your using a microwave)</li>
+                            <li>2dl and 2 tablespoons toasted sesame oil</li>
+                        </ul>
+                    </div>
+                    <div class="directions">
+                        <p>Directions</p>
+                        <ul>
+                            <li>Combine the rice flour,salt and water in a bowl.</li>
+                            <li>Cover it with plastic wrap, leaving a small gap to let the steam release. Microwave for 2 minutes.</li>
+                            <li>Mix the dough with a rice spoon or a wooden spoon.</li>
+                            <li>Re-cover with the plastic wrap and microwave for another 2 minutes.</li>
+                            <li>Spread the sesame oil on your cutting board. Put the hot rice cake in the oily spot on the cutting board. Pound it with a pestle for about 5 minutes until it becomes smooth and elastic.</li>
+                            <li>Cut the dough into 8 equal pieces, then rool each piece into a 10 - 15 centimeter long cylinder shaped rice cake.</li>
+                            <li>Put sesame oil onto your hands and gently rub the rice cakes. This will give them a nice flavour and keep them rom sticking together.</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <aside class="mainRight">
+                <div class="source">
+                    <p>Credit:</p>
+                    <p>Original Tteokbokki recipe from <a href="https://www.maangchi.com/recipe/tteokbokki">here</a></p>
+                    <p>Original rice cake (가래떡) recipe from <a href="https://www.maangchi.com/recipe/garaetteok">here</a></p>
+                </div>
+            </aside>
         </main>
         <footer></footer>
     </div>
+    <script src="assets/js/phone.js"></script>
 </body>
 </html>

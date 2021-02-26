@@ -37,7 +37,7 @@ header h1 {
 .spanLogo {
     color: #007AF3;
 }
-.mobileIcon {
+.mobileIcon, .mobileIconClose {
     display: none;
 }
 
@@ -74,6 +74,64 @@ main {
     flex: 4;
     background-color: #5F6C7E;
 }
+
+/*
+ recepie css starts
+*/
+
+.recipe {
+    margin: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    /* background-color: darkkhaki; */
+    /* margin-bottom: 10px; */
+}
+
+.recipeHeader {
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.ingredients, .directions {
+    margin-left: 30px;
+}
+
+.ingredients p, .directions p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.ingredients ul li, .directions ul li {
+    list-style: inside;
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.source {
+    margin: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    /* background-color: darkkhaki; */
+}
+
+.source p {
+    color: white;
+}
+
+.source a {
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+}
+
+/*
+ recepie css ends
+*/
 
 .mainRight {
     flex: 1;

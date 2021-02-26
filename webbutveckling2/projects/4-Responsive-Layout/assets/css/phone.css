@@ -2,7 +2,7 @@
 
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -13,15 +13,44 @@ header {
 .mobileIcon {
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    margin: 10px;
+    top: 20px;
+    right: 20px;
+    /* margin: 10px; */
+}
+
+.mobileIconClose {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .mobileMenu {
+    height: 100%;
     position: absolute;
+    transform: translateX(100%);
+    transition: all .4s;
+    background-color: #b6b6b6;
+    align-items: center;
+}
+
+.mobileMenuToggle {
+    transform: translateX(0%);
 }
 
 .mobileMenu ul {
     flex-direction: column;
+    align-items: center;
+}
+
+.mobileMenu li {
+    background-color: #b6b6b6;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.mobileMenu li:hover {
+    background-color: #95afbe;
 }
