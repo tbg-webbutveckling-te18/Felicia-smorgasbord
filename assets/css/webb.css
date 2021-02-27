@@ -52,20 +52,24 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100%;
+
+    margin: 5px;
+    /* margin-top: 10px; */
     /*text-align: center;*/
 }
 
 .grid-container a:nth-child(even) {
     background-color: #67cbc5;
-    border: 2px solid #54c5be;
+    /* border: 2px solid #54c5be; */
 }
 
-.grid-container a:nth-child(odd) {
+.grid-container a:nth-child(odd) { 
     background-color: #67cbac;
 }
 
 .grid-container a:hover {
-    -webkit-box-shadow: 2px 2px 3px black, -2px -2px 3px black; 
+    /* -webkit-box-shadow: 2px 2px 3px black, -2px -2px 3px black;  */
+    -webkit-box-shadow: 2px 2px 3px #608888; 
 }
 
 /*.grid-item {
