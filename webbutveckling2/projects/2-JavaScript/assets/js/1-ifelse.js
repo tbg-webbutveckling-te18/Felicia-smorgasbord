@@ -4,7 +4,7 @@ if (age >= 18) {
     console.log('You can get your drivers licens.');
 } else {
     console.log('you cannot get your drivers license');
-}
+} 
 
 // if something is equal too
 var lesson = 'Web Development';

@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .container {
@@ -11,12 +12,12 @@
     width: 100%;
     height: auto;
 }
-
+ 
 header {
     width: 100%;
     height: 250px;
 
-    background-color: #F2F2F2;
+    background-color: #cfcfcf;
 
     justify-content: space-around;
     align-items: center;
@@ -26,7 +27,7 @@ header h1 {
     font-size: 42px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #707070;
+    color: #3a3939;
     text-align: right;
 
     /* background-color: hotpink; */
@@ -35,7 +36,7 @@ header h1 {
 }
 
 .spanLogo {
-    color: #007AF3;
+    color: #060ae6;
 }
 .mobileIcon, .mobileIconClose {
     display: none;
@@ -55,6 +56,8 @@ nav ul {
 
     width: 70%;
 
+    color: rgb(0, 0, 0);
+
     font-size: 22px;
     cursor: pointer;
     text-transform: uppercase;
@@ -67,12 +70,15 @@ main {
 
 .mainLeft {
     flex: 1;
-    background-color: #637692;
+}
+
+.mainLeft, .mainRight {
+    background-color: #49566b;
 }
 
 .mainCenter {
     flex: 4;
-    background-color: #5F6C7E;
+    background-color: #3d4a5c;
 }
 
 /*
@@ -91,7 +97,7 @@ main {
     font-size: 28px;
     font-weight: 700;
     margin-left: 8px;
-    color: rgb(255, 255, 255);
+    color: rgb(211, 211, 211);
 }
 
 .ingredients, .directions {
@@ -103,14 +109,19 @@ main {
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 2px;
-    color: white;
+    color: rgb(211, 211, 211);
 }
 
 .ingredients ul li, .directions ul li {
     list-style: inside;
     font-size: 18px;
     margin-bottom: 2px;
-    color: white;
+    color: rgb(226, 226, 226);
+}
+
+.directions ul li {
+    list-style: decimal;
+    margin-left: 15px;
 }
 
 .source {
@@ -121,21 +132,53 @@ main {
 }
 
 .source p {
-    color: white;
+    color: rgb(233, 233, 233);
 }
 
 .source a {
-    text-decoration: none;
-    color: rgb(214, 213, 213);
+    /* text-decoration: none; */
+    list-style: none;
+    color: rgb(158, 175, 187);
 }
 
 /*
- recepie css ends
+ main left fill
+*/
+
+.fill {
+    margin: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fill h1 {
+    font-size: 19px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top:16px;
+}
+
+.fill h1, .fill ul {
+    color: rgb(233, 233, 233);
+}
+
+.fill ul {
+    margin-top: 5px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.fill ul li {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* text-decoration: none; */
+}
+
+/* 
+-------------------
 */
 
 .mainRight {
     flex: 1;
-    background-color: #637692;
 }
 
 footer {

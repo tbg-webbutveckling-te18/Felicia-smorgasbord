@@ -3,7 +3,7 @@
 for(var i = 0; i <= 10; i++) {
     document.writeln("Count is: " + i + "<br>");
 }
-
+ 
 document.writeln("--------------------<br>"); 
 
 // increment by 2 (or more)
