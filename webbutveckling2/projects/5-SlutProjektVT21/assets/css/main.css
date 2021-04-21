@@ -1,0 +1,98 @@
+@charset 'utf-8';
+
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+     background-color: #FFFFFF;
+}
+
+header {
+    height: 120px;
+    display: flex;
+
+    /* background-color: #D7E3E8; */
+}
+
+.logo {
+    /* margin-top: 40px; */
+    margin-left: 110px;
+    flex: .5;
+}
+
+nav {
+    display: flex;
+    flex: 5;
+    align-items: center;
+
+    /* background-color: pink; */
+}
+
+.subPages {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 170px;
+
+    /* background-color: plum; */
+}
+
+.extra {
+    flex: 1.5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 60px;
+    margin-right: 50px;
+
+    /* background-color: salmon; */
+}
+
+.subPages a , .extra a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.premium p{
+    color: #007AF3;
+    border: 1.5px solid #007AF3;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.hero {
+    height: 800px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1.5;
+}
+
+.main {
+    height: 800px;
+    background-color: #3B4651;
+}
+
+.testimonial {
+    height: 1000px;
+    background-color: #007AF3;
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="515" height="613" viewBox="0 0 515 613">
+  <defs>
+    <filter id="Rectangle_5" x="4" y="0" width="511" height="613" filterUnits="userSpaceOnUse">
+      <feOffset dx="9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-color="#033464" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_11_1" data-name="Component 11 – 1" transform="translate(0 24)">
+    <g transform="matrix(1, 0, 0, 1, 0, -24)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="445" height="547" rx="33" transform="translate(28 24)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(0 251)" fill="#fff" stroke="#dcdcdc" stroke-width="2">
+      <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+      <circle cx="28.5" cy="28.5" r="27.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0 401)" fill="#fff" stroke="#dcdcdc" stroke-width="2">
+      <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+      <circle cx="28.5" cy="28.5" r="27.5" fill="none"/>
+    </g>
+    <g id="Component_9_1" data-name="Component 9 – 1" transform="translate(0 116)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="28.5" cy="28.5" r="28.5" fill="#1fc41f"/>
+      <path id="Path_3" data-name="Path 3" d="M-661.841-95.878l8.643,10.5,17.065-21.443" transform="translate(678 127)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(-1215 -238)">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="297" height="15" rx="7.5" transform="translate(1330 354)" fill="#f5d5d5"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="60" height="15" rx="7.5" transform="translate(1330 377)" fill="#f5d5d5"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(1612 377)" fill="#f5d5d5"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="7.5" cy="7.5" r="7.5" transform="translate(1590 377)" fill="#f5d5d5"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-1215 -97)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="297" height="15" rx="7.5" transform="translate(1330 354)" fill="#d5e3f5"/>
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="60" height="15" rx="7.5" transform="translate(1330 377)" fill="#d5e3f5"/>
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(1612 377)" fill="#d5e3f5"/>
+      <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="7.5" cy="7.5" r="7.5" transform="translate(1590 377)" fill="#d5e3f5"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-1215 44)">
+      <rect id="Rectangle_6-3" data-name="Rectangle 6" width="297" height="15" rx="7.5" transform="translate(1330 354)" fill="#f3d5f5"/>
+      <rect id="Rectangle_7-3" data-name="Rectangle 7" width="60" height="15" rx="7.5" transform="translate(1330 377)" fill="#f3d5f5"/>
+      <circle id="Ellipse_4-3" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(1612 377)" fill="#f3d5f5"/>
+      <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="7.5" cy="7.5" r="7.5" transform="translate(1590 377)" fill="#f3d5f5"/>
+    </g>
+  </g>
+</svg>
