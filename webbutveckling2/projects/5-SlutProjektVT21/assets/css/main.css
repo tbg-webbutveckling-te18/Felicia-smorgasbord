@@ -211,7 +211,7 @@ nav {
     position: relative;
     left: 120px;
     top: 220px;
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 /* ------ */
