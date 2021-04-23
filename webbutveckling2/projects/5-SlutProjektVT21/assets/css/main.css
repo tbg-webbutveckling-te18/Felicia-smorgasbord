@@ -12,7 +12,26 @@ html {
 
 body {
      background-color: #FFFFFF;
+     overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* F2F2F2 */
+
+::-webkit-scrollbar-track {
+    background: #3B4651;
+    border: 1px solid #3B4651;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    /* width: 10px; */
+    background: #F2F2F2;
+}
+  
 
 header {
     height: 120px;
@@ -73,7 +92,7 @@ nav {
 }
 
 .hero {
-    height: 800px;
+    height: 550px;
     background-color: #F2F2F2;
     display: flex;
     align-items: center;
@@ -81,16 +100,121 @@ nav {
 
 .left {
     flex: 2;
+    /* margin-left: 300px;
+    margin-right: 180px; */
+}
+
+.easySimple {
+    color: #8B8B8B;
+    margin-left: 300px;
+}
+
+.statement {
+    margin-left: 300px;
+    margin-right: 160px;
+    letter-spacing: 2px;
+}
+
+.mind {
+    margin-left: 300px;
+}
+
+.dot {
+    color: #007AF3;
+    margin-left: 1px;
+}
+
+.links {
+    display: flex;
+    margin-left: 300px;
+}
+
+.smalLeft {
+    font-size: 13px;
+    font-weight: 700;
+
+    border: 2px solid #007AF3;
+    border-radius: 20px;
+    background-color: #007af3;
+    color: white;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.smalRight {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.smalRight img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.smalRight a{
+    color: #8B8B8B;
+    text-decoration: none;
+
+    font-size: 15px;
 }
 
 .right {
     flex: 1.5;
 }
 
-.main {
-    height: 800px;
-    background-color: #3B4651;
+.right img {
+    height: 400px;
 }
+
+/* ------ */
+
+.main {
+    height: 570px;
+    background-color: #3B4651;
+    display: flex;
+}
+
+.blueSquare {
+    background-color: #007af3;
+
+    width: 220px;
+    height: 450px;
+
+    position: relative;
+    top: -70px;
+}
+
+.blueSquare img {
+    position: relative;
+    top: 130px;
+    left: 120px;
+    width: 180px;
+}
+
+.checklist2 {
+    width: 400px;
+
+    margin-left: 170px;
+    margin-top: -40px;
+}
+
+.main .phone {
+    width: 380px;
+    position: relative;
+    left: 120px;
+    top: 220px;
+    -webkit-filter: grayscale(100%);
+}
+
+/* ------ */
 
 .testimonial {
     height: 1000px;
