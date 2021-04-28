@@ -45,7 +45,9 @@
             <h1 class="mind">MIND<span class="dot">.</span></h1>
             <div class="links">
                 <div class="smalLeft">
-                    <p>TRY FOR FREE</p>
+                    <a href="#">
+                        <p>TRY FOR FREE</p>
+                    </a>
                 </div>
                 <div class="smalRight">
                     <img src="assets/images/videocam.svg" alt="">
@@ -66,7 +68,39 @@
         <img src="assets/images/checklist2.svg" alt="" class="checklist2">
         <img src="assets/images/pictureOfPhone.svg" alt="" class="phone">
     </div>
-    <div class="testimonial"></div>
+    <div class="testimonial">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="assets/images/testimonial.png" alt="">
+                <img src="assets/images/testimonial2.png" alt="">
+                <img src="assets/images/testimonial4.png" alt="">
+                <img src="assets/images/testimonial3.png" alt="">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/testimonial2.png" alt="">
+                <img src="assets/images/testimonial4.png" alt="">
+                <img src="assets/images/testimonial.png" alt="">
+                <img src="assets/images/testimonial3.png" alt="">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/testimonial3.png" alt="">
+                <img src="assets/images/testimonial.png" alt="">
+                <img src="assets/images/testimonial4.png" alt="">
+                <img src="assets/images/testimonial2.png" alt="">
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dott" onclick="currentSlide(1)"></span>
+            <span class="dott" onclick="currentSlide(2)"></span>
+            <span class="dott" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
     <footer></footer>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
