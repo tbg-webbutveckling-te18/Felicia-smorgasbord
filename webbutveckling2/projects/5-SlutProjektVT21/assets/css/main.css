@@ -248,7 +248,7 @@ nav {
     align-items: center;
 }
 
-.prev, .next {
+.prev, .next { 
     cursor: pointer;
     position: absolute;
     top: 50%;

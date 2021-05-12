@@ -4,7 +4,8 @@
     padding: 0px;
     margin: 0px;
 
-}
+    font-family: 'Nunito', sans-serif;
+} 
  
 html {
     height: 100%;
@@ -17,86 +18,71 @@ body {
 }
 
 header {
-    height: 120px;
-
+    height: 140px;
     display: flex;
 
-    border-bottom: 2px solid rgb(46, 45, 45);
-    background-color: rgb(58, 58, 58);
+    /* border-bottom: 2px solid rgb(46, 45, 45); */
+    background-color: rgb(51, 50, 50);
 }
 
 .headerIcon {
     height: 100%;
     flex: 1;
 
-    border-right: 2px solid rgb(46, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border-right: 2px solid rgb(46, 45, 45); */
 }
 
 .headerIcon img {
-    height: 100%;
-
+    position: absolute;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
-.header {
+.navContainer {
+    flex: 4;
     height: 100%;
-    flex: 4.6;
+    margin-left: 20px;
+    /* border-right: 2px solid rgb(46, 45, 45); */
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home, .intro, .examples, .aboutMe {
+    font-size: 22px;
+    color: rgb(247, 110, 167);
+}
+
+.search {
+    height: 100%;
+    flex: 1.7;
 
     display: flex;
-    justify-content: flex-end;
-
-    padding-right: 50px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
 }
 
-.header input {
+.search input {
     height: 30px;
     width: 200px;
     border: none;
     padding-left: 5px;
 }
 
-.header button {
+.search button {
     height: 30px;
     width: 50px;
     border: none;
     border-left: 2px solid darkgray;
-}
-
-nav {
-    min-height: 40px;
-    display: flex;
-
-    background-color: rgb(58, 58, 58);
-    border-bottom: 2px solid rgb(46, 45, 45);
-}
-
-.navImg {
-    height: 100%; 
-    flex: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
-
-    border-right: 2px solid rgb(46, 45, 45);
-}
-
-.navImg img {
-
-    height: 40px;
-}
-
-ul, .menu {
-    color: rgb(177, 173, 173);
-}
-
-li {
-    list-style: none;
-    text-align: left;
-    margin-left: 15px;
 }
 
 a {
@@ -104,63 +90,12 @@ a {
     text-decoration: none;
 }
 
-.navImg:hover {
-    flex: 5;
-    align-items: flex-start;
-    margin-left: 10px;
-}
-.menu {
-    opacity: 0;
-    height: 0;
-}
-.list {
-    opacity: 0;
-    height: 0;
-
-    font-size: 15px;
-}
-.navImg:hover .menu {
-    display: block;
-
-    margin-left: 5px;
-
-    opacity: 1;
-    height: auto;
-    transition: .5s;
-}
-
-
-.menu:hover .list {
-    display: block;
-
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-
-    height: 15px;
-    opacity: 1;
-    transition: .5s;
-} 
-
-
-
-.nav {
-    height: 100%;
-    flex: 19;
-}
-
 .body {
-    height: 800px;
+    min-height: 500px;
     width: 100%;
 
     background-color: rgb(58, 58, 58);
     border-bottom: 2px solid rgb(46, 45, 45);
-}
-
-.aboutBody {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 h1, p, h3 {
@@ -214,9 +149,25 @@ footer {
     background-color: rgb(58, 58, 58);
 } 
 
-/*
-    subpage about css
+/* 
+    subpage intro css
 */
+
+
+
+/*
+    subpage about me css
+*/
+
+/* .bodyAboutMe {
+    min-height: 500px;
+} */
+
+.aboutBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .aboutTitle {
     color: rgb(231, 233, 232);
@@ -228,7 +179,7 @@ footer {
     font-size: 30px;
 }
 
-.about {
+.aboutKorean {
     color: rgb(231, 233, 232);
 
     margin-top: 30px;
@@ -236,5 +187,25 @@ footer {
 
     width: 560px;
 
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.aboutJapanese {
+    color: rgb(231, 233, 232);
+
+    margin-top: 20px;
+    padding: 5px;
+
+    width: 530px;
+    font-size: 20px;
+}
+
+.aboutEnglish {
+    color: rgb(231, 233, 232);
+
+    margin-top: 20px;
+    padding: 5px;
+    
+    width: 550px;
+    font-size: 20px;
 }
