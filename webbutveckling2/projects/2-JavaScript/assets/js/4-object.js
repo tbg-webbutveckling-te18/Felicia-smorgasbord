@@ -5,7 +5,7 @@ document.writeln('<br>');
 document.writeln('<br>');
 
 // document.writeln(person[2]);
-
+ 
  
 var personFriends = ['Bob', 'Mei', 'Alice', 'Naoko'];
 

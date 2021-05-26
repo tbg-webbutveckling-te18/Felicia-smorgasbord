@@ -188,7 +188,27 @@ footer {
 
 /* 
     subpage examples css
- */
+*/
+
+.exampleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.exampleText, .name, .time {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.uppdateTime {
+    margin-top: 5px;
+}
 
 
 

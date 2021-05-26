@@ -1,4 +1,4 @@
-
+ 
 
 // document.writeln('Twinkle, twinkle, little star <br>');
 // document.writeln('how i wonder what you are <br>');
@@ -175,16 +175,16 @@ var output = document.getElementById('tellFortune');
 var btnFortune = document.getElementsByTagName('button')[1];
 
 function tellFortune(job, place, partner, kids) {
-    output.innerHTML = `You will be a/an ${job} in ${place} and married to ${partner} with ${kids} kid/kids`;
+    output.innerHTML = `You will be a(n) ${job} in ${place} and married to ${partner} with ${kids} kid(s)`;
     // var str = 'You will be a/an ' + x + ' in ' + y + ', and married to ' + z + ' with' + z + ' kidz.';
 }
 
 // tellFortune('Game Designer', 'New Yourk', 'Mei', 1);
 
-var jobArr = ['Game Designer', 'Web Developer', 'Homeless', 'YouTuber', 'President'];
-var placeArr = ['Tokyo', 'Moscow', 'New York', 'Manchester', 'Dublin'];
-var partnerArr = ['Mei', 'Mark', 'Johnny', 'Daichi', 'Igor'];
-var kidsArr = [0, 1, 2, 3, 8];
+var jobArr = ['Game Designer', 'Web Developer', 'Homeless', 'YouTuber', 'President', 'Musican', 'Fashion Designer', 'Postman', 'Teacher', 'Factory Worker', 'Baker', 'Waitress', 'Chef', 'Firefighter', 'Doctor', 'Scientist', 'Therapist', 'Author', 'Lifeguard', ''];
+var placeArr = ['Tokyo', 'Moscow', 'New York', 'Manchester', 'Dublin', 'Rome', 'London', 'Buenos Aires', 'Venice', 'Paris'];
+var partnerArr = ['Mei', 'Mark', 'Johnny', 'Daichi', 'Igor', 'Frank', 'Lisa', 'Ellie', 'Van', 'Alice', 'David', 'Steven', 'Joey', 'Jaime'];
+var kidsArr = [0, 1, 2, 3, 4, 5, 8,];
 
 btnFortune.addEventListener('click', function() {
     var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];

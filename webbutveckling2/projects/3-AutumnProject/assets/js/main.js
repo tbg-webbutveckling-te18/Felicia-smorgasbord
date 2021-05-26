@@ -2,6 +2,49 @@
 
 
 
+//if else
+
+//for-loops
+
+//arrays
+
+//objects
+
+
+var input = document.querySelector(".changeName");
+var Name = document.querySelector(".name");
+input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        Name.innerHTML = input.value;
+        input.value = "";
+    }
+})
+
+
+var time = document.querySelector(".time");
+var btnTime = document.querySelector(".uppdateTime");
+
+// var month = d.getMonth();
+// var day = d.getDate();
+// var time = d.getTime();
+
+btnTime.addEventListener('click', function() {
+    var d = new Date();
+
+    time.innerHTML = "Month: " + (d.getMonth() + 1) + "<br>Day: " + (d.getDate()) + "<br>Time: " + (d.toLocaleTimeString());
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

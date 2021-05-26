@@ -33,7 +33,7 @@ if (d.getUTCHours() < 18) {
     console.log("G'Day!");
 } else {
     console.log('Evening!');
-} 
+}  
 
 // step 2
 if (d.getUTCHours() < 10) {
