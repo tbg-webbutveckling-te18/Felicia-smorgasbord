@@ -5,22 +5,38 @@ Create your own code - movieDB
 */
 
 
-var movies = [
+var movies = [ 
    {
-      title: ,
-      rating: ,
-      hasWatched: ,
+       title: 'Deadpool',
+       rating: 4,
+       hasWatched: true
+   },
+   {
+       title: 'The Mimic',
+       rating: 3,
+       hasWatched: false
+   },
+   {
+       title: 'Spirited Away',
+       rating: 5,
+       hasWatched: true
+   },
+   {
+       title: 'Nerve',
+       rating: 2.5,
+       hasWatched: true
    }
 ];
 
 movies.forEach(function(movie) {
    if (movie.hasWatched === false) {
-      // console.log you hav enot seen ${movie.title} with the rating etc.
+       document.writeln(`You have not watched ${movie.title} : Rated ${movie.rating} stars`)
+       document.writeln('<br>')
    } else {
-      // you have seen
+       document.writeln(`You have watched ${movie.title} : Rated ${movie.rating} stars`)
+       document.writeln('<br>')
    }
 })
-
 
 // Create an array of movie objects
 // Each movie should have a title, rating and hasWatched properties
