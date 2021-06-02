@@ -69,7 +69,7 @@ h1 {
 
 .grid-container a:hover {
     /* -webkit-box-shadow: 2px 2px 3px black, -2px -2px 3px black;  */
-    -webkit-box-shadow: 2px 2px 3px #608888; 
+    box-shadow: 2px 2px 3px #608888; 
 }
 
 /*.grid-item {
